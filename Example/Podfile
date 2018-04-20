@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WolfLua_Example' do
+  pod 'WolfLua', :path => '../'
+
+  target 'WolfLua_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
