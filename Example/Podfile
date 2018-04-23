@@ -1,11 +1,14 @@
 use_frameworks!
+platform :ios, '11.3'
+
+pod 'WolfLua', :path => '../'
+
+#pod 'WolfCore', :path => '../../WolfCore/'
+# pod 'CLua', :path => '../../CLua'
+pod 'CLua'
 
 target 'WolfLua_Example' do
-  pod 'WolfLua', :path => '../'
+end
 
-  target 'WolfLua_Tests' do
-    inherit! :search_paths
-
-    
-  end
+target 'WolfLua_Tests' do
 end

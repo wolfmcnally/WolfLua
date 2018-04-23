@@ -1,0 +1,24 @@
+PODS:
+  - CLua (0.1.0)
+  - WolfLua (0.1.0):
+    - CLua
+
+DEPENDENCIES:
+  - CLua
+  - WolfLua (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CLua
+
+EXTERNAL SOURCES:
+  WolfLua:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CLua: 16ceb7ae2345773f12dafd3d228080e614f4ce8d
+  WolfLua: 4b7addf77a4d77edd8447f223840e94d7c93ccf1
+
+PODFILE CHECKSUM: a698e9c50f2ab9585ef1a6b2836c60d8cda55037
+
+COCOAPODS: 1.5.0
